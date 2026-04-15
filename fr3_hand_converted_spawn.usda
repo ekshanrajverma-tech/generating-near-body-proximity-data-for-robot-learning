@@ -1,0 +1,106 @@
+#usda 1.0
+(
+    """Spawn layer: disable SPAD sensor collision meshes that break PhysX (invalid zero-radius spheres).
+
+    Affected links: link2 (0-6), link3 (0-7), link5 (0-5), link6 (0-7).
+    These sensors have no physics role; disabling their collisions is safe."""
+    defaultPrim = "fr3_hand"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "fr3_hand" (
+    prepend references = @./fr3_hand_converted.usd@</fr3_hand>
+)
+{
+    over "link2_sensor_0" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link2_sensor_1" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link2_sensor_2" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link2_sensor_3" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link2_sensor_4" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link2_sensor_5" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link2_sensor_6" {
+        over "collisions" ( active = false ) {}
+    }
+
+    over "link3_sensor_0" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link3_sensor_1" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link3_sensor_2" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link3_sensor_3" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link3_sensor_4" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link3_sensor_5" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link3_sensor_6" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link3_sensor_7" {
+        over "collisions" ( active = false ) {}
+    }
+
+    over "link5_sensor_0" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link5_sensor_1" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link5_sensor_2" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link5_sensor_3" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link5_sensor_4" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link5_sensor_5" {
+        over "collisions" ( active = false ) {}
+    }
+
+    over "link6_sensor_0" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link6_sensor_1" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link6_sensor_2" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link6_sensor_3" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link6_sensor_4" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link6_sensor_5" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link6_sensor_6" {
+        over "collisions" ( active = false ) {}
+    }
+    over "link6_sensor_7" {
+        over "collisions" ( active = false ) {}
+    }
+}

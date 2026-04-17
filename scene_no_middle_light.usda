@@ -52,6 +52,7 @@ def Xform "FloorPlan1_physics" (
 
         over "bowl_6befd62f08fd322391939c2b44d3f839_1_0_0" (
             kind = "subcomponent"
+            active = false
         )
         {
         }
@@ -82,6 +83,7 @@ def Xform "FloorPlan1_physics" (
 
         over "butterknife_b2b8a251c5e331c4017267a6e05c76d5_1_0_0" (
             kind = "subcomponent"
+            active = false
         )
         {
         }
@@ -118,6 +120,7 @@ def Xform "FloorPlan1_physics" (
 
         over "knife_d1a1d17c285fd8977f4a313d2a06c8e2_1_0_0" (
             kind = "subcomponent"
+            active = false
         )
         {
         }
@@ -178,6 +181,7 @@ def Xform "FloorPlan1_physics" (
 
         over "bread_5f50f53c9dcfbae4352335033a8b2bb4_1_0_0" (
             kind = "subcomponent"
+            active = false
         )
         {
         }
@@ -238,6 +242,7 @@ def Xform "FloorPlan1_physics" (
 
         over "book_be545aaaeb1f643586d7965f7a571f70_1_0_0" (
             kind = "subcomponent"
+            active = false
         )
         {
         }

@@ -275,7 +275,8 @@ TABLE_CAM_ROT = (
 # YCB pool
 # ---------------------------------------------------------------------------
 _N = f"{ISAAC_NUCLEUS_DIR}/Props/YCB/Axis_Aligned_Physics"
-_L = os.path.expanduser("~/ycb_usd")
+# Local YCB USDs live inside this repo (pulled alongside code).
+_L = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ycb_usd")
 
 # Spawn Z:  For centered-origin USDs (Nucleus) pass h = half_height.
 #           For bottom-origin USDs (local) pass h ≈ 0 (gravity settles them).

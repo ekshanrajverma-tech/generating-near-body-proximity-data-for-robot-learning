@@ -1,1 +1,37 @@
-/home/ekshanraj/.molmospaces/usd/scenes/ithor/20260121/FloorPlan1_physics/Payload/Contents.usda
+#usda 1.0
+(
+    customLayerData = {
+        string creator = """AI2-THOR mjcf-usd scene converter
+    time: 01-20-26 16:35:02
+    scene: FloorPlan1_physics
+    usd-exchange-version: 2.2.0
+"""
+    }
+    defaultPrim = "FloorPlan1_physics"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    subLayers = [
+        @./Physics.usda@,
+        @./Geometry.usda@,
+        @./Materials.usda@
+    ]
+    upAxis = "Z"
+)
+
+def Xform "FloorPlan1_physics"
+{
+    def DistantLight "scene_dir_light"
+    {
+        float inputs:intensity = 1000
+        float xformOp:rotateX = -10
+        uniform token[] xformOpOrder = ["xformOp:rotateX"]
+    }
+
+    def DomeLight "scene_ibl_light"
+    {
+        color3f inputs:color = (1, 0.85301, 0.55212)
+        float inputs:exposure = 0
+        float inputs:intensity = 500
+    }
+}
+

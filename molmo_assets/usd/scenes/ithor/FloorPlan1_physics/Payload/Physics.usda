@@ -1,1 +1,4324 @@
-/home/ekshanraj/.molmospaces/usd/scenes/ithor/20260121/FloorPlan1_physics/Payload/Physics.usda
+#usda 1.0
+(
+    customLayerData = {
+        string creator = """AI2-THOR mjcf-usd scene converter
+    time: 01-20-26 16:35:02
+    scene: FloorPlan1_physics
+    usd-exchange-version: 2.2.0
+"""
+    }
+    defaultPrim = "FloorPlan1_physics"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "FloorPlan1_physics"
+{
+    def Scope "Physics"
+    {
+    }
+
+    over "Geometry"
+    {
+        over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0>
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_18" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_19" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_20" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_21" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_22" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_23" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_24" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_25" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_26" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_27" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_28" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_29" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_30" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_31" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_32" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_33" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_34" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_35" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_36" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_37" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_38" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_39" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_40" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_41" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_42" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_43" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_44" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_45" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_46" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_47" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_48" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_49" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_50" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_51" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_52" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_53" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_54" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_55" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_56" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_57" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0_collision_58" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/dishwasher_def5a30c2a98791d34988c0910c708d7_1_1_0>
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_61" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_62" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_63" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_64" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_65" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_66" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_67" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_68" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_69" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_70" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_71" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_72" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_73" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_74" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_2_0_collision_75" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_3_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_3_0_collision_77" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_3_0_collision_78" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_3_0_collision_79" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_3_0_collision_80" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_3_0_collision_81" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_3_0_collision_82" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "dishwasher_def5a30c2a98791d34988c0910c708d7_1_3_0_collision_83" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "oven_588514d9b7194ff8509ced4f3f34adb0_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = [
+                </FloorPlan1_physics/Geometry/oven_588514d9b7194ff8509ced4f3f34adb0_1_2_0>,
+                </FloorPlan1_physics/Geometry/oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0>,
+            ]
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_18" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_19" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_20" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_21" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0_collision_22" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "oven_588514d9b7194ff8509ced4f3f34adb0_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0>
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_2_0_collision_24" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_2_0_collision_25" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_2_0_collision_26" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_2_0_collision_27" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_2_0_collision_28" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "oven_588514d9b7194ff8509ced4f3f34adb0_1_3_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_3_0_collision_30" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_3_0_collision_31" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_3_0_collision_32" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_3_0_collision_33" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_3_0_collision_34" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/oven_588514d9b7194ff8509ced4f3f34adb0_1_1_0>
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_38" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_39" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_40" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_41" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_42" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_43" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_44" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_45" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_4_0_collision_46" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "oven_588514d9b7194ff8509ced4f3f34adb0_1_5_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_5_0_collision_48" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_5_0_collision_49" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_5_0_collision_50" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_5_0_collision_51" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "oven_588514d9b7194ff8509ced4f3f34adb0_1_5_0_collision_52" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "knob_d47dfec462cd7dff081c5c9c00eff94d_1_0_0"
+        {
+        }
+
+        over "knob_d47dfec462cd7dff081c5c9c00eff94d_1_1_0" (
+            prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/knob_d47dfec462cd7dff081c5c9c00eff94d_1_2_0>
+
+            over "knob_d47dfec462cd7dff081c5c9c00eff94d_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "knob_d47dfec462cd7dff081c5c9c00eff94d_1_2_0" (
+            prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/knob_d47dfec462cd7dff081c5c9c00eff94d_1_1_0>
+        }
+
+        over "knob_d698e45ed94f719fb49fe77156bccbb6_1_0_0"
+        {
+        }
+
+        over "knob_d698e45ed94f719fb49fe77156bccbb6_1_1_0" (
+            prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/knob_d698e45ed94f719fb49fe77156bccbb6_1_2_0>
+
+            over "knob_d698e45ed94f719fb49fe77156bccbb6_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "knob_d698e45ed94f719fb49fe77156bccbb6_1_2_0" (
+            prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/knob_d698e45ed94f719fb49fe77156bccbb6_1_1_0>
+        }
+
+        over "knob_e7171dfdf21d79a0cb06c407d9a0bf4d_1_0_0"
+        {
+        }
+
+        over "knob_e7171dfdf21d79a0cb06c407d9a0bf4d_1_1_0" (
+            prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/knob_e7171dfdf21d79a0cb06c407d9a0bf4d_1_2_0>
+
+            over "knob_e7171dfdf21d79a0cb06c407d9a0bf4d_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "knob_e7171dfdf21d79a0cb06c407d9a0bf4d_1_2_0" (
+            prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/knob_e7171dfdf21d79a0cb06c407d9a0bf4d_1_1_0>
+        }
+
+        over "knob_23581f34e0d054cbf53cfc43a17ee59b_1_0_0"
+        {
+        }
+
+        over "knob_23581f34e0d054cbf53cfc43a17ee59b_1_1_0" (
+            prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/knob_23581f34e0d054cbf53cfc43a17ee59b_1_2_0>
+
+            over "knob_23581f34e0d054cbf53cfc43a17ee59b_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "knob_23581f34e0d054cbf53cfc43a17ee59b_1_2_0" (
+            prepend apiSchemas = ["PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/knob_23581f34e0d054cbf53cfc43a17ee59b_1_1_0>
+        }
+
+        over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_9ec3f0517bfaa6873677305ad67285c7_1_2_0>
+
+            over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = [
+                </FloorPlan1_physics/Geometry/cabinet_9ec3f0517bfaa6873677305ad67285c7_1_1_0>,
+                </FloorPlan1_physics/Geometry/cabinet_9ec3f0517bfaa6873677305ad67285c7_1_3_0>,
+            ]
+
+            over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_3_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_9ec3f0517bfaa6873677305ad67285c7_1_2_0>
+
+            over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_3_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_4_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+            over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_4_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_9ec3f0517bfaa6873677305ad67285c7_1_4_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_53bff33c8108e78518d74849ba119aa5_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_53bff33c8108e78518d74849ba119aa5_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_53bff33c8108e78518d74849ba119aa5_1_2_0>
+
+            over "cabinet_53bff33c8108e78518d74849ba119aa5_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_53bff33c8108e78518d74849ba119aa5_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = [
+                </FloorPlan1_physics/Geometry/cabinet_53bff33c8108e78518d74849ba119aa5_1_1_0>,
+                </FloorPlan1_physics/Geometry/cabinet_53bff33c8108e78518d74849ba119aa5_1_3_0>,
+            ]
+
+            over "cabinet_53bff33c8108e78518d74849ba119aa5_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_53bff33c8108e78518d74849ba119aa5_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_53bff33c8108e78518d74849ba119aa5_1_3_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_53bff33c8108e78518d74849ba119aa5_1_2_0>
+
+            over "cabinet_53bff33c8108e78518d74849ba119aa5_1_3_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_53bff33c8108e78518d74849ba119aa5_1_4_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+            over "cabinet_53bff33c8108e78518d74849ba119aa5_1_4_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_53bff33c8108e78518d74849ba119aa5_1_4_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_9cd7d0e8f08f62110de1293b892c56b2_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_9cd7d0e8f08f62110de1293b892c56b2_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_9cd7d0e8f08f62110de1293b892c56b2_1_2_0>
+
+            over "cabinet_9cd7d0e8f08f62110de1293b892c56b2_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_9cd7d0e8f08f62110de1293b892c56b2_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_9cd7d0e8f08f62110de1293b892c56b2_1_1_0>
+
+            over "cabinet_9cd7d0e8f08f62110de1293b892c56b2_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_9cd7d0e8f08f62110de1293b892c56b2_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_372d9ee41d70550432c30a66a6e5b331_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_372d9ee41d70550432c30a66a6e5b331_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_372d9ee41d70550432c30a66a6e5b331_1_2_0>
+
+            over "drawer_372d9ee41d70550432c30a66a6e5b331_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_372d9ee41d70550432c30a66a6e5b331_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_372d9ee41d70550432c30a66a6e5b331_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_372d9ee41d70550432c30a66a6e5b331_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_372d9ee41d70550432c30a66a6e5b331_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_372d9ee41d70550432c30a66a6e5b331_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_372d9ee41d70550432c30a66a6e5b331_1_1_0>
+
+            over "drawer_372d9ee41d70550432c30a66a6e5b331_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_372d9ee41d70550432c30a66a6e5b331_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_a037f6eea70627f4134c7adf6cd82205_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_a037f6eea70627f4134c7adf6cd82205_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_a037f6eea70627f4134c7adf6cd82205_1_2_0>
+
+            over "drawer_a037f6eea70627f4134c7adf6cd82205_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_a037f6eea70627f4134c7adf6cd82205_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_a037f6eea70627f4134c7adf6cd82205_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_a037f6eea70627f4134c7adf6cd82205_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_a037f6eea70627f4134c7adf6cd82205_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_a037f6eea70627f4134c7adf6cd82205_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_a037f6eea70627f4134c7adf6cd82205_1_1_0>
+
+            over "drawer_a037f6eea70627f4134c7adf6cd82205_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_a037f6eea70627f4134c7adf6cd82205_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_2_0>
+
+            over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_1_0>
+
+            over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_72e4c03d9599586e003dc8b46b6dfc5f_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_b02756d512ec441961b9a3e6c3ed803f_1_2_0>
+
+            over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_b02756d512ec441961b9a3e6c3ed803f_1_1_0>
+
+            over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b02756d512ec441961b9a3e6c3ed803f_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_b4db64fe996f5874f518392f82883339_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_b4db64fe996f5874f518392f82883339_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_b4db64fe996f5874f518392f82883339_1_2_0>
+
+            over "drawer_b4db64fe996f5874f518392f82883339_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b4db64fe996f5874f518392f82883339_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b4db64fe996f5874f518392f82883339_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b4db64fe996f5874f518392f82883339_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b4db64fe996f5874f518392f82883339_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_b4db64fe996f5874f518392f82883339_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_b4db64fe996f5874f518392f82883339_1_1_0>
+
+            over "drawer_b4db64fe996f5874f518392f82883339_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b4db64fe996f5874f518392f82883339_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_e26acb6f6707dde83d690c5f35170a72_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_e26acb6f6707dde83d690c5f35170a72_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_e26acb6f6707dde83d690c5f35170a72_1_2_0>
+
+            over "drawer_e26acb6f6707dde83d690c5f35170a72_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_e26acb6f6707dde83d690c5f35170a72_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_e26acb6f6707dde83d690c5f35170a72_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_e26acb6f6707dde83d690c5f35170a72_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_e26acb6f6707dde83d690c5f35170a72_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_e26acb6f6707dde83d690c5f35170a72_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_e26acb6f6707dde83d690c5f35170a72_1_1_0>
+
+            over "drawer_e26acb6f6707dde83d690c5f35170a72_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_e26acb6f6707dde83d690c5f35170a72_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_b903dbc78205faad9b6a69faf9395065_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_b903dbc78205faad9b6a69faf9395065_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_b903dbc78205faad9b6a69faf9395065_1_2_0>
+
+            over "drawer_b903dbc78205faad9b6a69faf9395065_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b903dbc78205faad9b6a69faf9395065_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b903dbc78205faad9b6a69faf9395065_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b903dbc78205faad9b6a69faf9395065_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b903dbc78205faad9b6a69faf9395065_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_b903dbc78205faad9b6a69faf9395065_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_b903dbc78205faad9b6a69faf9395065_1_1_0>
+
+            over "drawer_b903dbc78205faad9b6a69faf9395065_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b903dbc78205faad9b6a69faf9395065_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_b76ad776d5e9438676a8159f2d96f3db_1_2_0>
+
+            over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_b76ad776d5e9438676a8159f2d96f3db_1_1_0>
+
+            over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_b76ad776d5e9438676a8159f2d96f3db_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_2_0>
+
+            over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_1_0>
+
+            over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_2_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "drawer_2c01435a76fbd6dd72d3b69cdede81e6_1_2_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_a569e796694840d3ed7400a48f47fa9f_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_a569e796694840d3ed7400a48f47fa9f_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_a569e796694840d3ed7400a48f47fa9f_1_2_0>
+
+            over "cabinet_a569e796694840d3ed7400a48f47fa9f_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_a569e796694840d3ed7400a48f47fa9f_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_a569e796694840d3ed7400a48f47fa9f_1_1_0>
+
+            over "cabinet_a569e796694840d3ed7400a48f47fa9f_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_a569e796694840d3ed7400a48f47fa9f_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_20e2eafc7df3448c593f357a64f9ab35_1_2_0>
+
+            over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = [
+                </FloorPlan1_physics/Geometry/cabinet_20e2eafc7df3448c593f357a64f9ab35_1_1_0>,
+                </FloorPlan1_physics/Geometry/cabinet_20e2eafc7df3448c593f357a64f9ab35_1_3_0>,
+            ]
+
+            over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_3_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_20e2eafc7df3448c593f357a64f9ab35_1_2_0>
+
+            over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_3_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_4_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+            over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_4_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_20e2eafc7df3448c593f357a64f9ab35_1_4_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_7862596f3b7321061739e627de7b1564_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_7862596f3b7321061739e627de7b1564_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_7862596f3b7321061739e627de7b1564_1_2_0>
+
+            over "cabinet_7862596f3b7321061739e627de7b1564_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_7862596f3b7321061739e627de7b1564_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = [
+                </FloorPlan1_physics/Geometry/cabinet_7862596f3b7321061739e627de7b1564_1_1_0>,
+                </FloorPlan1_physics/Geometry/cabinet_7862596f3b7321061739e627de7b1564_1_3_0>,
+            ]
+
+            over "cabinet_7862596f3b7321061739e627de7b1564_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_7862596f3b7321061739e627de7b1564_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_7862596f3b7321061739e627de7b1564_1_3_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_7862596f3b7321061739e627de7b1564_1_2_0>
+
+            over "cabinet_7862596f3b7321061739e627de7b1564_1_3_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_7862596f3b7321061739e627de7b1564_1_4_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+            over "cabinet_7862596f3b7321061739e627de7b1564_1_4_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_7862596f3b7321061739e627de7b1564_1_4_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_d729990c810279b2b9645f29265874a6_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_d729990c810279b2b9645f29265874a6_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_d729990c810279b2b9645f29265874a6_1_2_0>
+
+            over "cabinet_d729990c810279b2b9645f29265874a6_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_d729990c810279b2b9645f29265874a6_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_d729990c810279b2b9645f29265874a6_1_1_0>
+
+            over "cabinet_d729990c810279b2b9645f29265874a6_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_d729990c810279b2b9645f29265874a6_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_e7088050612af6972098c01be2e97df3_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_e7088050612af6972098c01be2e97df3_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_e7088050612af6972098c01be2e97df3_1_2_0>
+
+            over "cabinet_e7088050612af6972098c01be2e97df3_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_e7088050612af6972098c01be2e97df3_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = [
+                </FloorPlan1_physics/Geometry/cabinet_e7088050612af6972098c01be2e97df3_1_1_0>,
+                </FloorPlan1_physics/Geometry/cabinet_e7088050612af6972098c01be2e97df3_1_3_0>,
+            ]
+
+            over "cabinet_e7088050612af6972098c01be2e97df3_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_e7088050612af6972098c01be2e97df3_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_e7088050612af6972098c01be2e97df3_1_3_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_e7088050612af6972098c01be2e97df3_1_2_0>
+
+            over "cabinet_e7088050612af6972098c01be2e97df3_1_3_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_e7088050612af6972098c01be2e97df3_1_4_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI"]
+        )
+        {
+            over "cabinet_e7088050612af6972098c01be2e97df3_1_4_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_e7088050612af6972098c01be2e97df3_1_4_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_e14b5d0ae2104c80229d8c2887dcd378_1_0_0" (
+            prepend apiSchemas = ["PhysicsArticulationRootAPI"]
+        )
+        {
+        }
+
+        over "cabinet_e14b5d0ae2104c80229d8c2887dcd378_1_1_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_e14b5d0ae2104c80229d8c2887dcd378_1_2_0>
+
+            over "cabinet_e14b5d0ae2104c80229d8c2887dcd378_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "cabinet_e14b5d0ae2104c80229d8c2887dcd378_1_2_0" (
+            prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsFilteredPairsAPI"]
+        )
+        {
+            prepend rel physics:filteredPairs = </FloorPlan1_physics/Geometry/cabinet_e14b5d0ae2104c80229d8c2887dcd378_1_1_0>
+
+            over "cabinet_e14b5d0ae2104c80229d8c2887dcd378_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "cabinet_e14b5d0ae2104c80229d8c2887dcd378_1_2_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_0_0"
+        {
+        }
+
+        over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_1_0"
+        {
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_2_0"
+        {
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_2_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_2_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_2_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_2_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_2_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_2_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tap_658b7244d9e0234667d1cd7c5bfcca74_1_2_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "mesh_0dd0a19f3631740ddd4a771ff7cda43b_1_0_0"
+        {
+        }
+
+        over "mesh_0dd0a19f3631740ddd4a771ff7cda43b_1_1_0"
+        {
+            over "mesh_0dd0a19f3631740ddd4a771ff7cda43b_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "tn__quaddecalspawnplane1_9f8c215392522ab197c16b9b91d80d13_1_0_0_Wk1p1"
+        {
+        }
+
+        over "quaddecalspawnplane_28a9cbc5125077325a7c7de46e04a2e5_1_0_0"
+        {
+        }
+
+        over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_0_0_Wg1Hj1K"
+        {
+        }
+
+        over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_1_0_Wg1Hj1K"
+        {
+            over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_1_0_collision_1_lv1Hv1K" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_2_0_Wg1Hj1K"
+        {
+            over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_2_0_collision_3_lv1Hv1K" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_3_0_Wg1Hj1K"
+        {
+            over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_3_0_collision_5_lv1Hv1K" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_4_0_Wg1Hj1K"
+        {
+            over "tn__standardwindow132_5dee3ac2b2be3a8dadd7172a6a9f1bd3_1_4_0_collision_7_lv1Hv1K" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_0_0"
+        {
+        }
+
+        over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0"
+        {
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sinkmesh_c0c7451e01e2181ae46c9591813ea775_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "sink_6963746c1cac2341702c2d7d922de618_1_0_0"
+        {
+        }
+
+        over "sink_6963746c1cac2341702c2d7d922de618_1_1_0"
+        {
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "sink_6963746c1cac2341702c2d7d922de618_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "window_37237e949443fa0e5b9f3aae42c412ba_1_0_0"
+        {
+        }
+
+        over "window_37237e949443fa0e5b9f3aae42c412ba_1_1_0"
+        {
+            over "window_37237e949443fa0e5b9f3aae42c412ba_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "window_37237e949443fa0e5b9f3aae42c412ba_1_2_0"
+        {
+            over "window_37237e949443fa0e5b9f3aae42c412ba_1_2_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "window_37237e949443fa0e5b9f3aae42c412ba_1_3_0"
+        {
+            over "window_37237e949443fa0e5b9f3aae42c412ba_1_3_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "window_37237e949443fa0e5b9f3aae42c412ba_1_4_0"
+        {
+            over "window_37237e949443fa0e5b9f3aae42c412ba_1_4_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "mesh_5bb1e014e79d28428beb7602dc51a572_1_0_0"
+        {
+        }
+
+        over "mesh_5bb1e014e79d28428beb7602dc51a572_1_1_0"
+        {
+            over "mesh_5bb1e014e79d28428beb7602dc51a572_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "mesh_7b93de71a6e088893440a115e790858c_1_0_0"
+        {
+        }
+
+        over "mesh_7b93de71a6e088893440a115e790858c_1_1_0"
+        {
+            over "mesh_7b93de71a6e088893440a115e790858c_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "mesh_d852da4b06f56c47432470a87930d6ec_1_0_0"
+        {
+        }
+
+        over "mesh_d852da4b06f56c47432470a87930d6ec_1_1_0"
+        {
+            over "mesh_d852da4b06f56c47432470a87930d6ec_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "mesh_2342246a5d0098065ae3dcfc2079294b_1_0_0"
+        {
+        }
+
+        over "mesh_2342246a5d0098065ae3dcfc2079294b_1_1_0"
+        {
+            over "mesh_2342246a5d0098065ae3dcfc2079294b_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "floor_0d0043e148930456eaa93834eadffe94_1_0_0"
+        {
+        }
+
+        over "floor_0d0043e148930456eaa93834eadffe94_1_1_0"
+        {
+            over "floor_0d0043e148930456eaa93834eadffe94_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "standardislandheight_7cc63329b1f0a38cd8c2450298404ab3_1_0_0"
+        {
+        }
+
+        over "standardislandheight_7cc63329b1f0a38cd8c2450298404ab3_1_1_0"
+        {
+            over "standardislandheight_7cc63329b1f0a38cd8c2450298404ab3_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardislandheight_7cc63329b1f0a38cd8c2450298404ab3_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardislandheight_7cc63329b1f0a38cd8c2450298404ab3_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "ceiling_5668c54974263ac7b6b8546d7c7ae534_1_0_0"
+        {
+        }
+
+        over "ceiling_5668c54974263ac7b6b8546d7c7ae534_1_1_0"
+        {
+            over "ceiling_5668c54974263ac7b6b8546d7c7ae534_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "ceiling_5668c54974263ac7b6b8546d7c7ae534_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "ceiling_5668c54974263ac7b6b8546d7c7ae534_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "ceiling_5668c54974263ac7b6b8546d7c7ae534_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "window_f519cfc5442b8d026e15e6b54af9a5c7_1_0_0"
+        {
+        }
+
+        over "window_f519cfc5442b8d026e15e6b54af9a5c7_1_1_0"
+        {
+            over "window_f519cfc5442b8d026e15e6b54af9a5c7_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_0_0"
+        {
+        }
+
+        over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0"
+        {
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_18" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_19" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_20" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_21" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_22" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_23" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_24" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_25" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_26" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_27" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_28" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_29" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_30" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_31" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_32" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_33" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_34" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_35" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_36" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_37" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_38" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_39" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_40" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_41" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardcounterheightwidth_63e81a44be2e417bdef7ec44364879f9_1_1_0_collision_42" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "standardknob1_09e595309e55c7f9178a49e21f9f0dfb_1_0_0"
+        {
+        }
+
+        over "standardknob1_09e595309e55c7f9178a49e21f9f0dfb_1_1_0"
+        {
+            over "standardknob1_09e595309e55c7f9178a49e21f9f0dfb_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardknob1_09e595309e55c7f9178a49e21f9f0dfb_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardknob1_09e595309e55c7f9178a49e21f9f0dfb_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "standardknob1_09e595309e55c7f9178a49e21f9f0dfb_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "door_034d645307c928b9501712064c4ad4b9_1_0_0"
+        {
+        }
+
+        over "door_034d645307c928b9501712064c4ad4b9_1_1_0"
+        {
+            over "door_034d645307c928b9501712064c4ad4b9_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "door_034d645307c928b9501712064c4ad4b9_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "faucet_49e730a07386d40d13827b116d96748a_1_0_0"
+        {
+        }
+
+        over "faucet_49e730a07386d40d13827b116d96748a_1_1_0"
+        {
+            over "faucet_49e730a07386d40d13827b116d96748a_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "faucet_49e730a07386d40d13827b116d96748a_1_2_0"
+        {
+            over "faucet_49e730a07386d40d13827b116d96748a_1_2_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_2_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_2_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_2_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_2_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_2_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "faucet_49e730a07386d40d13827b116d96748a_1_2_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "tn__standardknob12_ea8aa6b67a1d0138b0d4d17fc249d9f6_1_0_0_Yc1d1"
+        {
+        }
+
+        over "tn__standardknob12_ea8aa6b67a1d0138b0d4d17fc249d9f6_1_1_0_Yc1d1"
+        {
+            over "tn__standardknob12_ea8aa6b67a1d0138b0d4d17fc249d9f6_1_1_0_collision_1_nr1p1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tn__standardknob12_ea8aa6b67a1d0138b0d4d17fc249d9f6_1_1_0_collision_2_nr1p1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tn__standardknob12_ea8aa6b67a1d0138b0d4d17fc249d9f6_1_1_0_collision_3_nr1p1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "tn__standardknob12_ea8aa6b67a1d0138b0d4d17fc249d9f6_1_1_0_collision_4_nr1p1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "door_f2d4ffc256f54f0897c1add29e9536e8_1_0_0"
+        {
+        }
+
+        over "door_f2d4ffc256f54f0897c1add29e9536e8_1_1_0"
+        {
+            over "door_f2d4ffc256f54f0897c1add29e9536e8_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "door_f2d4ffc256f54f0897c1add29e9536e8_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "doorframe_c8a16b4bfa4c6541d6ab2bb679f599a4_1_0_0"
+        {
+        }
+
+        over "doorframe_c8a16b4bfa4c6541d6ab2bb679f599a4_1_1_0"
+        {
+            over "doorframe_c8a16b4bfa4c6541d6ab2bb679f599a4_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "doorframe_c8a16b4bfa4c6541d6ab2bb679f599a4_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "doorframe_c8a16b4bfa4c6541d6ab2bb679f599a4_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "doorframe_bb048c0f2e5a02e01b1b43bd83b99c19_1_0_0"
+        {
+        }
+
+        over "doorframe_bb048c0f2e5a02e01b1b43bd83b99c19_1_1_0"
+        {
+            over "doorframe_bb048c0f2e5a02e01b1b43bd83b99c19_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "doorframe_bb048c0f2e5a02e01b1b43bd83b99c19_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "doorframe_bb048c0f2e5a02e01b1b43bd83b99c19_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "wall_bf73ef61aba158e368b1f9b3764c478c_1_0_0"
+        {
+        }
+
+        over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0"
+        {
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "wall_bf73ef61aba158e368b1f9b3764c478c_1_1_0_collision_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "backsplash_2c6746521993f48ff59a5a8de206780d_1_0_0"
+        {
+        }
+
+        over "backsplash_2c6746521993f48ff59a5a8de206780d_1_1_0"
+        {
+            over "backsplash_2c6746521993f48ff59a5a8de206780d_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "backsplash_2c6746521993f48ff59a5a8de206780d_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "backsplash_2c6746521993f48ff59a5a8de206780d_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_0_0"
+        {
+        }
+
+        over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0"
+        {
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_18" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_19" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_20" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_21" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_22" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_23" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_24" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_25" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_26" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "uppercabinets_c7e7d22253112dfbcee9c311c1f97e27_1_1_0_collision_27" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_0_0"
+        {
+        }
+
+        over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0"
+        {
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_18" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_19" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_20" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_21" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_22" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_23" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_24" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_25" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_26" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_27" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_28" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_29" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_30" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_31" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_32" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_33" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture_85ab262f2cf1634eecd9e16ca7eced03_1_1_0_collision_34" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_0_0"
+        {
+        }
+
+        over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0"
+        {
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_18" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_19" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_20" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_21" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_22" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_23" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_24" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_25" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_26" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_27" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_28" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_29" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_30" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_31" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_32" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_33" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture2_eee9eab107fd41fecde3cfbfc79b9b7c_1_1_0_collision_34" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_0_0"
+        {
+        }
+
+        over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0"
+        {
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_5" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_6" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_7" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_8" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_9" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_10" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_11" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_12" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_13" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_14" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_15" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_16" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_17" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_18" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_19" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_20" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_21" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_22" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_23" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_24" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_25" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_26" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_27" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_28" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_29" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_30" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_31" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_32" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_33" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+
+            over "lightfixture1_26e2aa9e3375edc7c8567a7c80168365_1_1_0_collision_34" (
+                prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMassAPI"]
+            )
+            {
+                float physics:density = 500
+            }
+        }
+
+        over "floor" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+        }
+    }
+}
+

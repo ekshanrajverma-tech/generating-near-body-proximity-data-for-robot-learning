@@ -2,8 +2,12 @@
 # SPDX-License-Identifier: Apache-2.0
 import sys
 import importlib.util as _ilu
+from pathlib import Path
 
-_spec = _ilu.spec_from_file_location("prox_env_cfg", "/home/ekshanraj/prox_learn/env_cfg.py")
+_spec = _ilu.spec_from_file_location(
+    "prox_env_cfg",
+    str(Path(__file__).resolve().with_name("env_cfg.py")),
+)
 _mod = _ilu.module_from_spec(_spec)
 sys.modules["prox_env_cfg"] = _mod  # register BEFORE exec so @configclass can find the module
 _spec.loader.exec_module(_mod)

@@ -1,1 +1,258 @@
-/home/ekshanraj/.molmospaces/usd/scenes/ithor/20260121/FloorPlan1_physics/scene.usda
+#usda 1.0
+(
+    customLayerData = {
+        string creator = """AI2-THOR mjcf-usd scene converter
+    time: 01-20-26 16:35:02
+    scene: FloorPlan1_physics
+    usd-exchange-version: 2.2.0
+"""
+    }
+    defaultPrim = "FloorPlan1_physics"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "FloorPlan1_physics" (
+    prepend apiSchemas = ["GeomModelAPI"]
+    assetInfo = {
+        string name = "FloorPlan1_physics"
+    }
+    kind = "component"
+    prepend payload = @./Payload/Contents.usda@
+)
+{
+    float3[] extentsHint = [(-2.50006, -2.9, -0.102697745), (2.4743, 2.56216, 2.6), (3.4028235e38, 3.4028235e38, 3.4028235e38), (-3.4028235e38, -3.4028235e38, -3.4028235e38), (3.4028235e38, 3.4028235e38, 3.4028235e38), (-3.4028235e38, -3.4028235e38, -3.4028235e38), (-10, -10, -0.1), (10, 10, 2.607633)]
+
+    over "Geometry"
+    {
+        over "bottle_8382d4ed00ffcc00a477337974541bb1_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "vase_177d512e3a9fe64690d3df0c325413fe_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "statue_e2da6cf9030ad270d01ac0fa5001917f_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "vase_b264007d115778c4f9c1d16f5c2fb6cb_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "bowl_6befd62f08fd322391939c2b44d3f839_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "sponge_41cc9aa65073b4cd1fc4d9871335148d_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "winebottle_201eb4050e30f10e57909e4c975910e9_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "papertowel_8c3d7f3c8d8e3b95ccf7fae0c1cac322_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "boiler_335af387651d9869b84abf1fb099bf69_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "butterknife_b2b8a251c5e331c4017267a6e05c76d5_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "pot_e212d04be87cc98b4a5251ccfd9e1819_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "spatula_291e31b285474249721c8a7b1bac877a_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "mug_8caf1bb3f88e9a00e02dfe9e6518aeb0_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "trashcan_d784bb4f1d72a48177b13d732c5a9256_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "coffeemaker_99dfafa85dfdfeae875dda95ef27cf18_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "knife_d1a1d17c285fd8977f4a313d2a06c8e2_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "spoon_573130d7496422c068be3abf14b0dcf0_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "fork_a17d780ca6a79038b069eb7768c962c4_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "refrigerator_5a1cb9d35791f7f9acfa7d661c12908e_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "microwaveoven_37bc68a024364106033dc6f1f16a5c8d_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "toaster_b2ac8cba319254abd7021d8eb029bf7c_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "shelf_5853bc56b5f9b234bb5560d090a1b164_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "apple_038a0ea9b393da66a161da588e6ecc2a_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "houseplant_6f581d48d93286f579c4bc0346d0330d_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "lettuce_67e42f8ccc6350d979b726f13794f91e_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "bread_5f50f53c9dcfbae4352335033a8b2bb4_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "peppershaker_d3a7b2ab4bd62388f7ea7dd2ef7c1fdc_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "saltshaker_fae1c48e1d061403dc3bc39cef9e979a_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "soapdispenser_c44a2e4b26bddaf96812e05d7baf4f49_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "tomato_0ee2f642cf5e3601b52ed9ad0f751736_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "egg_f137dcdedb58eda5ef2acc019efa206d_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "cup_00f92997b25a123a9fc9dcf350627c1e_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "plate_ad540817fe2632d8b49916da70118c0a_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "Irishpotato_98dee472f1cf0a95c9fbc734935c5ea3_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "cookingpan_40b409723635cb780abf0ec96274d5c8_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "book_be545aaaeb1f643586d7965f7a571f70_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "stool_91c6f4e534726496a79ae63e90d2ad28_1_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+
+        over "stool_91c6f4e534726496a79ae63e90d2ad28_2_0_0" (
+            kind = "subcomponent"
+        )
+        {
+        }
+    }
+}
+

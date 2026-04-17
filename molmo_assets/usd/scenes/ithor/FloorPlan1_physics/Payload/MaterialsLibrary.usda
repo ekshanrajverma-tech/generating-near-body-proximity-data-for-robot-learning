@@ -1,1 +1,630 @@
-/home/ekshanraj/.molmospaces/usd/scenes/ithor/20260121/FloorPlan1_physics/Payload/MaterialsLibrary.usda
+#usda 1.0
+(
+    "Material library for house FloorPlan1_physics"
+    customLayerData = {
+        string creator = """AI2-THOR mjcf-usd scene converter
+    time: 01-20-26 16:35:02
+    scene: FloorPlan1_physics
+    usd-exchange-version: 2.2.0
+"""
+    }
+    defaultPrim = "Materials"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+class Scope "Materials"
+{
+    def Material "material_FloorKitchen1Texturetest_DefaultMaterial_MetallicSmoothness_mat"
+    {
+        token outputs:displacement.connect = </Materials/material_FloorKitchen1Texturetest_DefaultMaterial_MetallicSmoothness_mat/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_FloorKitchen1Texturetest_DefaultMaterial_MetallicSmoothness_mat/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (1, 1, 1)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_HammeredMetal_AlbedoTransparency"
+    {
+        token outputs:displacement.connect = </Materials/material_HammeredMetal_AlbedoTransparency/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_HammeredMetal_AlbedoTransparency/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_HammeredMetal_AlbedoTransparency/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (1, 1, 1, 1)
+            asset inputs:file = @./Textures/HammeredMetal_MetallicSmoothness.png@
+            float4 inputs:scale = (1, 1, 1, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_HammeredMetal_AlbedoTransparency/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_StoveDarkMat"
+    {
+        token outputs:displacement.connect = </Materials/material_StoveDarkMat/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_StoveDarkMat/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.125, 0.125, 0.125)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_BrushedIron_AlbedoTransparency"
+    {
+        token outputs:displacement.connect = </Materials/material_BrushedIron_AlbedoTransparency/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_BrushedIron_AlbedoTransparency/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_BrushedIron_AlbedoTransparency/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (1, 1, 1, 1)
+            asset inputs:file = @./Textures/BrushedIron_AlbedoTransparency.png@
+            float4 inputs:scale = (1, 1, 1, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_BrushedIron_AlbedoTransparency/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_Glass_Green_Mat"
+    {
+        token outputs:displacement.connect = </Materials/material_Glass_Green_Mat/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_Glass_Green_Mat/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.170307, 0.257353, 0.178111)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_WhiteWoodClean"
+    {
+        token outputs:displacement.connect = </Materials/material_WhiteWoodClean/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_WhiteWoodClean/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (1, 1, 1)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_HammeredMetal_AlbedoTransparency_2"
+    {
+        token outputs:displacement.connect = </Materials/material_HammeredMetal_AlbedoTransparency_2/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_HammeredMetal_AlbedoTransparency_2/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_HammeredMetal_AlbedoTransparency_2/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (1, 0.934077, 0.816176, 1)
+            asset inputs:file = @./Textures/HammeredMetal_AlbedoTransparency.png@
+            float4 inputs:scale = (1, 0.934077, 0.816176, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_HammeredMetal_AlbedoTransparency_2/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "tn__material_DefaultMaterial_uZ0"
+    {
+        token outputs:displacement.connect = </Materials/tn__material_DefaultMaterial_uZ0/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/tn__material_DefaultMaterial_uZ0/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (1, 1, 1)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_TexturesCom_WoodFine0038_1_seamless_S"
+    {
+        token outputs:displacement.connect = </Materials/material_TexturesCom_WoodFine0038_1_seamless_S/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_TexturesCom_WoodFine0038_1_seamless_S/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_TexturesCom_WoodFine0038_1_seamless_S/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (1, 1, 1, 1)
+            asset inputs:file = @./Textures/TexturesCom_WoodFine0038_1_seamless_albedo_S.png@
+            float4 inputs:scale = (1, 1, 1, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_TexturesCom_WoodFine0038_1_seamless_S/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_WhitePlastic"
+    {
+        token outputs:displacement.connect = </Materials/material_WhitePlastic/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_WhitePlastic/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (1, 1, 1)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_Glass_Detailed_Lit_Medium_Mat"
+    {
+        token outputs:displacement.connect = </Materials/material_Glass_Detailed_Lit_Medium_Mat/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_Glass_Detailed_Lit_Medium_Mat/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (1, 1, 1)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_DarkWoodSmooth"
+    {
+        token outputs:displacement.connect = </Materials/material_DarkWoodSmooth/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_DarkWoodSmooth/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_DarkWoodSmooth/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (0.235849, 0.130508, 0.0767622, 1)
+            asset inputs:file = @./Textures/WoodGrains1.png@
+            float4 inputs:scale = (0.235849, 0.130508, 0.0767622, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_DarkWoodSmooth/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_LightWhite"
+    {
+        token outputs:displacement.connect = </Materials/material_LightWhite/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_LightWhite/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_LightWhite/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (0.889706, 0.889706, 0.889706, 1)
+            asset inputs:file = @./Textures/TexturesCom_MarbleNoisy0062_1_seamless_S.png@
+            float4 inputs:scale = (0.889706, 0.889706, 0.889706, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_LightWhite/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_PureBlack_Wood"
+    {
+        token outputs:displacement.connect = </Materials/material_PureBlack_Wood/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_PureBlack_Wood/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0, 0, 0)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_Drywall3"
+    {
+        token outputs:displacement.connect = </Materials/material_Drywall3/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_Drywall3/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_Drywall3/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (1, 1, 1, 1)
+            asset inputs:file = @./Textures/WallDrywallWhite.png@
+            float4 inputs:scale = (1, 1, 1, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_Drywall3/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_Copper_AlbedoTransparency"
+    {
+        token outputs:displacement.connect = </Materials/material_Copper_AlbedoTransparency/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_Copper_AlbedoTransparency/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_Copper_AlbedoTransparency/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (1, 1, 1, 1)
+            asset inputs:file = @./Textures/Copper_AlbedoTransparency.png@
+            float4 inputs:scale = (1, 1, 1, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_Copper_AlbedoTransparency/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_WornWood"
+    {
+        token outputs:displacement.connect = </Materials/material_WornWood/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_WornWood/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_WornWood/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (0.514706, 0.391197, 0.170307, 1)
+            asset inputs:file = @./Textures/TexturesCom_WornWood2_albedo_S.png@
+            float4 inputs:scale = (0.514706, 0.391197, 0.170307, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_WornWood/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_BlackWood"
+    {
+        token outputs:displacement.connect = </Materials/material_BlackWood/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_BlackWood/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.147059, 0.147059, 0.147059)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_WhiteWood1"
+    {
+        token outputs:displacement.connect = </Materials/material_WhiteWood1/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_WhiteWood1/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (1, 1, 1)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_YellowDrywall"
+    {
+        token outputs:displacement.connect = </Materials/material_YellowDrywall/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_YellowDrywall/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_YellowDrywall/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (1, 0.771052, 0.360294, 1)
+            asset inputs:file = @./Textures/WallDrywallWhite.png@
+            float4 inputs:scale = (1, 0.771052, 0.360294, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_YellowDrywall/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_SubwayTilesAO"
+    {
+        token outputs:displacement.connect = </Materials/material_SubwayTilesAO/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_SubwayTilesAO/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </Materials/material_SubwayTilesAO/DiffuseTexture.outputs:rgb>
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+
+        def Shader "DiffuseTexture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            float4 inputs:fallback = (1, 1, 1, 1)
+            asset inputs:file = @./Textures/SubwayTilesAO.png@
+            float4 inputs:scale = (1, 1, 1, 1)
+            token inputs:sourceColorSpace = "auto"
+            float2 inputs:st.connect = </Materials/material_SubwayTilesAO/Primvar_st_float2.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+
+        def Shader "Primvar_st_float2"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            string inputs:varname = "st"
+            float2 outputs:result
+        }
+    }
+
+    def Material "material_ToasterDarkMat"
+    {
+        token outputs:displacement.connect = </Materials/material_ToasterDarkMat/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_ToasterDarkMat/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.0483076, 0.0475208, 0.0537975)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+
+    def Material "material_Light"
+    {
+        token outputs:displacement.connect = </Materials/material_Light/PreviewSurface.outputs:displacement>
+        token outputs:surface.connect = </Materials/material_Light/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (1, 0.944118, 0.860294)
+            float inputs:metallic = 0
+            float inputs:opacity = 1
+            float inputs:roughness = 0.5
+            token outputs:displacement
+            token outputs:surface
+        }
+    }
+}
+
